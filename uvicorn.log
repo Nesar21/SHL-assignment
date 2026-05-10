@@ -1,0 +1,145 @@
+INFO:     Will watch for changes in these directories: ['/Users/nesar/VS/SHL-assignment']
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [40883] using WatchFiles
+/Users/nesar/VS/SHL-assignment/app/llm.py:19: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [40885]
+INFO:     Waiting for application startup.
+2026-05-10 17:20:26,958 [INFO] app.main: === SHL Assessment Advisor Starting ===
+2026-05-10 17:20:26,958 [INFO] app.catalog: Loading catalog from: /Users/nesar/VS/SHL-assignment/shl_product_catalog.json
+2026-05-10 17:20:26,960 [INFO] app.catalog: Catalog loaded: 377 items, compact string: 117,668 chars (~29,417 estimated tokens), 10 unique job levels, 42 unique languages
+2026-05-10 17:20:26,960 [INFO] app.main: Catalog ready: 377 items
+2026-05-10 17:20:26,960 [INFO] app.llm: Gemini client configured: model=gemini-3.1-flash-lite
+2026-05-10 17:20:26,960 [INFO] app.main: LLM client ready
+2026-05-10 17:20:26,960 [INFO] app.main: === Startup Complete ===
+INFO:     Application startup complete.
+INFO:     127.0.0.1:63850 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63850 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-05-10 17:21:33,106 [INFO] app.agent: Processing request: 1 messages, assistant response #1
+2026-05-10 17:21:37,509 [INFO] app.agent: Response: 0 recommendations, eoc=False, dropped=0
+INFO:     127.0.0.1:63856 - "POST /chat HTTP/1.1" 200 OK
+2026-05-10 17:22:20,415 [INFO] app.agent: Processing request: 1 messages, assistant response #1
+2026-05-10 17:22:32,599 [INFO] app.agent: Response: 0 recommendations, eoc=False, dropped=0
+INFO:     127.0.0.1:63868 - "POST /chat HTTP/1.1" 200 OK
+2026-05-10 17:22:55,311 [INFO] app.agent: Processing request: 3 messages, assistant response #2
+2026-05-10 17:23:02,151 [INFO] app.agent: Response: 1 recommendations, eoc=True, dropped=0
+INFO:     127.0.0.1:63872 - "POST /chat HTTP/1.1" 200 OK
+2026-05-10 17:23:36,410 [INFO] app.agent: Processing request: 7 messages, assistant response #4
+2026-05-10 17:23:43,667 [INFO] app.agent: Response: 3 recommendations, eoc=False, dropped=0
+INFO:     127.0.0.1:63880 - "POST /chat HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-05-10 17:24:33,848 [INFO] app.main: === Shutting Down ===
+INFO:     Application shutdown complete.
+INFO:     Finished server process [40885]
+/Users/nesar/VS/SHL-assignment/app/llm.py:19: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [45754]
+INFO:     Waiting for application startup.
+2026-05-10 17:24:34,417 [INFO] app.main: === SHL Assessment Advisor Starting ===
+2026-05-10 17:24:34,417 [INFO] app.catalog: Loading catalog from: /Users/nesar/VS/SHL-assignment/shl_product_catalog.json
+2026-05-10 17:24:34,420 [INFO] app.catalog: Catalog loaded: 377 items, compact string: 117,668 chars (~29,417 estimated tokens), 10 unique job levels, 42 unique languages
+2026-05-10 17:24:34,421 [INFO] app.main: Catalog ready: 377 items
+2026-05-10 17:24:34,421 [INFO] app.llm: Gemini client configured: model=gemini-3.1-flash-lite
+2026-05-10 17:24:34,421 [INFO] app.main: LLM client ready
+2026-05-10 17:24:34,421 [INFO] app.main: === Startup Complete ===
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-05-10 17:24:35,834 [INFO] app.main: === Shutting Down ===
+INFO:     Application shutdown complete.
+INFO:     Finished server process [45754]
+/Users/nesar/VS/SHL-assignment/app/llm.py:19: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [45808]
+INFO:     Waiting for application startup.
+2026-05-10 17:24:36,222 [INFO] app.main: === SHL Assessment Advisor Starting ===
+2026-05-10 17:24:36,222 [INFO] app.catalog: Loading catalog from: /Users/nesar/VS/SHL-assignment/shl_product_catalog.json
+2026-05-10 17:24:36,224 [INFO] app.catalog: Catalog loaded: 377 items, compact string: 117,668 chars (~29,417 estimated tokens), 10 unique job levels, 42 unique languages
+2026-05-10 17:24:36,224 [INFO] app.main: Catalog ready: 377 items
+2026-05-10 17:24:36,224 [INFO] app.llm: Gemini client configured: model=gemini-3.1-flash-lite
+2026-05-10 17:24:36,224 [INFO] app.main: LLM client ready
+2026-05-10 17:24:36,224 [INFO] app.main: === Startup Complete ===
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-05-10 17:25:59,947 [INFO] app.main: === Shutting Down ===
+INFO:     Application shutdown complete.
+INFO:     Finished server process [45808]
+/Users/nesar/VS/SHL-assignment/app/llm.py:19: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [47533]
+INFO:     Waiting for application startup.
+2026-05-10 17:26:00,512 [INFO] app.main: === SHL Assessment Advisor Starting ===
+2026-05-10 17:26:00,513 [INFO] app.catalog: Loading catalog from: /Users/nesar/VS/SHL-assignment/shl_product_catalog.json
+2026-05-10 17:26:00,515 [INFO] app.catalog: Catalog loaded: 377 items, compact string: 117,668 chars (~29,417 estimated tokens), 10 unique job levels, 42 unique languages
+2026-05-10 17:26:00,515 [INFO] app.main: Catalog ready: 377 items
+2026-05-10 17:26:00,515 [INFO] app.llm: Gemini client configured: model=gemini-3.1-flash-lite
+2026-05-10 17:26:00,515 [INFO] app.main: LLM client ready
+2026-05-10 17:26:00,515 [INFO] app.main: === Startup Complete ===
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-05-10 17:26:01,931 [INFO] app.main: === Shutting Down ===
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47533]
+/Users/nesar/VS/SHL-assignment/app/llm.py:19: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [47585]
+INFO:     Waiting for application startup.
+2026-05-10 17:26:02,317 [INFO] app.main: === SHL Assessment Advisor Starting ===
+2026-05-10 17:26:02,317 [INFO] app.catalog: Loading catalog from: /Users/nesar/VS/SHL-assignment/shl_product_catalog.json
+2026-05-10 17:26:02,319 [INFO] app.catalog: Catalog loaded: 377 items, compact string: 117,668 chars (~29,417 estimated tokens), 10 unique job levels, 42 unique languages
+2026-05-10 17:26:02,319 [INFO] app.main: Catalog ready: 377 items
+2026-05-10 17:26:02,319 [INFO] app.llm: Gemini client configured: model=gemini-3.1-flash-lite
+2026-05-10 17:26:02,319 [INFO] app.main: LLM client ready
+2026-05-10 17:26:02,319 [INFO] app.main: === Startup Complete ===
+INFO:     Application startup complete.
+2026-05-10 17:26:48,313 [INFO] app.agent: Processing request: 7 messages, assistant response #4
+2026-05-10 17:26:52,437 [INFO] app.agent: Response: 8 recommendations, eoc=True, dropped=0
+INFO:     127.0.0.1:63936 - "POST /chat HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-05-10 17:28:22,283 [INFO] app.main: === Shutting Down ===
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47585]
+INFO:     Stopping reloader process [40883]
