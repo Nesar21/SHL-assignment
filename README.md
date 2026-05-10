@@ -12,6 +12,12 @@ A stateless, zero-RAG conversational AI agent that helps hiring managers select 
 * **Testing:** Pytest & HTTPX
 * **Deployment:** Render (Zero-downtime ASGI)
 
+## 🌐 Live Deployment
+The API is successfully deployed on Render:
+* **Base URL:** `https://shl-assignment-0s3i.onrender.com`
+* **Health Check:** [https://shl-assignment-0s3i.onrender.com/health](https://shl-assignment-0s3i.onrender.com/health)
+* **Interactive API Docs (Swagger UI):** [https://shl-assignment-0s3i.onrender.com/docs](https://shl-assignment-0s3i.onrender.com/docs)
+
 ## 📦 Setup & Installation
 
 1. **Clone the repository:**
