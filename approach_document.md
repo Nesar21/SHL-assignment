@@ -32,4 +32,4 @@ Initially, we used `gemini-2.5-flash` due to its high reasoning, but we quickly 
 ## 5. Deployment & Tools
 *   **Frameworks:** `FastAPI` for the web server, `uvicorn` for ASGI hosting, `google-generativeai` for the LLM integration.
 *   **Deployment:** Configured via `render.yaml` for zero-downtime deployment on Render.
-*   **AI Tools Used:** Used an agentic coding assistant to rapidly iterate on the HTTP test harness, parse the markdown traces into computable assertions, and compress the catalog loading logic. This accelerated the evaluation loop significantly.
+*   **AI Tools Used:** Claude (Anthropic) used for plan design, architecture critique, gap analysis, and prompt iteration. Gemini (Google) used as the production LLM. All code written and verified by the author.
